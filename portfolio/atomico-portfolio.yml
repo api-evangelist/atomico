@@ -1,0 +1,379 @@
+generated: '2026-07-17'
+method: searched
+source: https://atomico.com/companies
+summary:
+  portfolio_total: 35
+  in_network: 15
+  api_providers: 9
+  missing: 20
+  stubs_created: 0
+companies:
+- name: Klarna
+  url: https://www.klarna.com
+  description: Buy-now-pay-later and consumer payments network.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://atomico.com/companies
+  slug: klarna
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Stripe
+  url: https://stripe.com
+  description: Payments and financial infrastructure for the internet.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://atomico.com/companies
+  slug: stripe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Supercell
+  url: https://supercell.com
+  description: Mobile games studio behind Clash of Clans and Hay Day.
+  sector: gaming
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: supercell
+- name: Rovio Entertainment
+  url: https://www.rovio.com
+  description: Mobile games studio behind Angry Birds.
+  sector: gaming
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: rovio-entertainment
+- name: DeepL
+  url: https://www.deepl.com
+  description: AI-powered machine translation and language tools.
+  sector: artificial-intelligence
+  stage: growth
+  status: active
+  lead: true
+  source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+  slug: deepl
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Graphcore
+  url: https://www.graphcore.ai
+  description: AI accelerator semiconductors and IPU processors.
+  sector: artificial-intelligence
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: graphcore
+- name: Pipedrive
+  url: https://www.pipedrive.com
+  description: Sales CRM and pipeline management software.
+  sector: saas
+  stage: growth
+  status: acquired
+  source: https://superscout.co/investor/atomico
+  slug: pipedrive
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Truecaller
+  url: https://www.truecaller.com
+  description: Caller ID and spam-blocking mobile app.
+  sector: consumer
+  stage: growth
+  status: ipo
+  lead: true
+  source: https://www.eu-startups.com/2014/10/truecaller-secures-60m-in-new-funding-from-atomico-kpcb-and-sequoia-capital/
+  in_network: false
+  is_api_provider: false
+  suggested_slug: truecaller
+- name: Wellhub
+  url: https://wellhub.com
+  description: Corporate wellbeing and fitness membership platform (formerly Gympass).
+  sector: health
+  stage: growth
+  status: active
+  source: https://superscout.co/investor/atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: wellhub
+- name: Aircall
+  url: https://aircall.io
+  description: Cloud-based phone and call center software for teams.
+  sector: saas
+  stage: growth
+  status: active
+  source: https://superscout.co/investor/atomico
+  slug: aircall
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Lilium
+  url: https://lilium.com
+  description: Electric vertical take-off and landing (eVTOL) aircraft developer.
+  sector: mobility
+  stage: growth
+  status: dead
+  source: https://superscout.co/investor/atomico
+  slug: lilium-air
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Bird
+  url: https://bird.com
+  description: Cloud communications platform (formerly MessageBird).
+  sector: infrastructure
+  stage: growth
+  status: active
+  source: https://superscout.co/investor/atomico
+  slug: bird
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Aiven
+  url: https://aiven.io
+  description: Managed open-source data infrastructure and cloud database platform.
+  sector: infrastructure
+  stage: growth
+  status: active
+  source: https://superscout.co/investor/atomico
+  slug: aiven
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Jobandtalent
+  url: https://www.jobandtalent.com
+  description: Marketplace and platform for temporary and flexible work.
+  sector: marketplace
+  stage: growth
+  status: active
+  source: https://superscout.co/investor/atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: jobandtalent
+- name: Hinge Health
+  url: https://www.hingehealth.com
+  description: Digital musculoskeletal care and physical therapy platform.
+  sector: health
+  stage: growth
+  status: ipo
+  source: https://superscout.co/investor/atomico
+  slug: hinge-health
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Lakera
+  url: https://www.lakera.ai
+  description: AI security and guardrails for large language model applications.
+  sector: artificial-intelligence
+  stage: series-a
+  status: acquired
+  lead: true
+  source: https://superscout.co/investor/atomico
+  slug: lakera
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: CADDi
+  url: https://caddi.com
+  description: Manufacturing procurement and drawing data platform.
+  sector: industrial
+  stage: growth
+  status: active
+  source: https://superscout.co/investor/atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: caddi
+- name: Sorare
+  url: https://sorare.com
+  description: Fantasy sports and digital collectibles gaming platform.
+  sector: gaming
+  stage: growth
+  status: active
+  source: https://sparkco.ai/blog/atomico
+  slug: sorare
+  in_network: true
+  is_api_provider: false
+  matched_by: name-slug
+- name: MasterClass
+  url: https://www.masterclass.com
+  description: Online learning platform with classes taught by experts.
+  sector: edtech
+  stage: growth
+  status: active
+  source: https://sparkco.ai/blog/atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: masterclass
+- name: Compass
+  url: https://www.compass.com
+  description: Technology-powered residential real estate brokerage.
+  sector: real-estate
+  stage: growth
+  status: ipo
+  source: https://sparkco.ai/blog/atomico
+  slug: compass
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: LendInvest
+  url: https://www.lendinvest.com
+  description: Property finance and mortgage lending marketplace.
+  sector: fintech
+  stage: growth
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: lendinvest
+- name: The Climate Corporation
+  url: https://climate.com
+  description: Digital agriculture and farm data analytics platform.
+  sector: agtech
+  stage: growth
+  status: acquired
+  source: https://en.wikipedia.org/wiki/Atomico
+  slug: bayer
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Kheiron Medical Technologies
+  url: https://www.kheironmed.com
+  description: AI-driven breast cancer screening and diagnostics.
+  sector: health
+  stage: series-a
+  status: acquired
+  source: https://sparkco.ai/blog/atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: kheiron-medical-technologies
+- name: Factorial
+  url: https://factorialhr.com
+  description: All-in-one HR software for small and medium businesses.
+  sector: saas
+  stage: growth
+  status: active
+  lead: true
+  source: https://en.wikipedia.org/wiki/Factorial_(company)
+  slug: factorial-hr
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Peakon
+  url: https://www.peakon.com
+  description: Employee engagement and people analytics platform.
+  sector: saas
+  stage: growth
+  status: acquired
+  source: https://pitchbook.com/profiles/investor/40732-48
+  in_network: false
+  is_api_provider: false
+  suggested_slug: peakon
+- name: Neko Health
+  url: https://www.nekohealth.com
+  description: Preventive health body-scanning clinics.
+  sector: health
+  stage: series-a
+  status: active
+  source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+  in_network: false
+  is_api_provider: false
+  suggested_slug: neko-health
+- name: Corti
+  url: https://www.corti.ai
+  description: AI co-pilot for healthcare consultations and clinical documentation.
+  sector: health
+  stage: growth
+  status: active
+  source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+  in_network: false
+  is_api_provider: false
+  suggested_slug: corti
+- name: Pelago
+  url: https://www.pelago.health
+  description: Digital clinic for substance-use management (formerly Quit Genius).
+  sector: health
+  stage: growth
+  status: active
+  source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+  in_network: false
+  is_api_provider: false
+  suggested_slug: pelago
+- name: Dexory
+  url: https://www.dexory.com
+  description: Warehouse robotics and real-time inventory intelligence.
+  sector: robotics
+  stage: growth
+  status: active
+  source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+  in_network: false
+  is_api_provider: false
+  suggested_slug: dexory
+- name: Deeploi
+  url: https://www.deeploi.com
+  description: IT operations and support platform for growing companies.
+  sector: saas
+  stage: seed
+  status: active
+  source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+  in_network: false
+  is_api_provider: false
+  suggested_slug: deeploi
+- name: Strise
+  url: https://www.strise.ai
+  description: AML and financial-crime automation platform.
+  sector: fintech
+  stage: series-a
+  status: active
+  source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+  in_network: false
+  is_api_provider: false
+  suggested_slug: strise
+- name: Framer
+  url: https://www.framer.com
+  description: No-code website design and publishing tool.
+  sector: developer-tools
+  stage: growth
+  status: active
+  source: https://superscout.co/investor/atomico
+  slug: framer
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: SmartNews
+  url: https://www.smartnews.com
+  description: News aggregation and discovery mobile app.
+  sector: consumer
+  stage: growth
+  status: active
+  source: https://superscout.co/investor/atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: smartnews
+- name: Attentive
+  url: https://www.attentive.com
+  description: SMS and conversational marketing platform.
+  sector: martech
+  stage: growth
+  status: active
+  source: https://pitchbook.com/profiles/investor/40732-48
+  in_network: false
+  is_api_provider: false
+  suggested_slug: attentive
+- name: ClaimSorted
+  url: https://www.claimsorted.com
+  description: Claims-management platform for insurers and MGAs.
+  sector: insurtech
+  stage: seed
+  status: active
+  source: https://sparkco.ai/blog/atomico
+  in_network: false
+  is_api_provider: false
+  suggested_slug: claimsorted

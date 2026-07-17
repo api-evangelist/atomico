@@ -1,0 +1,89 @@
+aid: atomico
+name: Atomico
+description: >-
+  Atomico is a London-headquartered European venture capital firm founded in 2006 by Niklas Zennstrom,
+  co-founder of Skype and Kazaa. Atomico partners with Europe's most ambitious technology founders from
+  the earliest stages to pre-IPO across two dedicated teams: a Venture team that invests predominantly at
+  Series A alongside occasional Seed opportunities, and a Growth team that invests from Series B to pre-IPO.
+  In September 2024 the firm closed its largest ever fundraise, $1.24 billion across two funds - a $754M
+  Atomico Growth VI vehicle and a $485M Atomico Venture VI vehicle - bringing total capital raised across
+  seven funds to more than $5 billion. Growth-stage checks typically range from roughly $10M to $50M+.
+  Atomico invests broadly across enterprise software, fintech, consumer, health, AI, developer tools,
+  infrastructure, industrial and climate technology, with an explicit thesis that European technology has
+  come of age. The firm operates offices in London, Paris, Berlin and Stockholm and is known for backing
+  category-defining companies including Klarna, Stripe, Supercell, Graphcore, DeepL, Pipedrive, Truecaller,
+  Wellhub, Lilium, Compass, Hinge Health and Sorare. Atomico also publishes the annual State of European
+  Tech report, the definitive data-driven analysis of the European technology ecosystem.
+image: https://atomico.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Series A
+  - Seed
+  - Growth Equity
+  - Enterprise
+  - Fintech
+  - Artificial Intelligence
+  - Developer Tools
+  - Consumer
+  - Health
+  - Climate
+  - Europe
+  - London
+apis: []
+common:
+  - type: Website
+    url: https://atomico.com/
+  - type: Portfolio
+    url: https://atomico.com/companies
+  - type: Portfolio
+    url: portfolio/atomico-portfolio.yml
+  - type: Team
+    url: https://atomico.com/team
+  - type: Team
+    url: team/atomico-team.yml
+  - type: InvestmentThesis
+    url: https://atomico.com/our-approach
+  - type: InvestmentThesis
+    url: https://atomico.com/how-we-invest
+  - type: InvestmentThesis
+    url: https://atomico.com/areas-of-interest
+  - type: Blog
+    url: https://atomico.com/insights
+  - type: News
+    url: https://atomico.com/insights
+  - type: Jobs
+    url: https://atomico.com/careers
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/atomico
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/atomico/
+  - type: Twitter
+    url: https://twitter.com/atomico
+  - type: Features
+    data:
+      - "Stage: Seed, Series A (Venture VI), Series B to pre-IPO (Growth VI)"
+      - "Typical check: growth-stage checks roughly $10M-$50M+"
+      - "Sectors: enterprise software, fintech, consumer, health, AI, developer tools, infrastructure, industrial, climate"
+      - "Geography: Europe (global scale-up ambition)"
+      - "AUM: ~$1.24B latest fundraise (2024); $5B+ raised across seven funds"
+      - "Funds: Atomico Growth VI ($754M) + Atomico Venture VI ($485M)"
+      - "Founded: 2006"
+      - "HQ: London, UK (offices in Paris, Berlin, Stockholm)"
+    sources:
+      - https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+      - https://en.wikipedia.org/wiki/Atomico
+      - https://techcrunch.com/2024/09/08/european-vc-atomico-closes-1-24b-across-two-funds-for-early-and-growth-stage-startups/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Atomico
+    url: https://atomico.com/

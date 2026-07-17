@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+source: https://atomico.com/team
+type: Team
+partners:
+  - name: Niklas Zennstrom
+    role: CEO & Founding Partner
+    linkedin: https://atomico.com/team/niklas-zennstrom
+  - name: Joen Bonnier
+    role: Partner
+  - name: Camilla Richards
+    role: Partner & Head of Investor Relations
+  - name: Tom Wehmeier
+    role: Partner & Head of Research
+  - name: Luca Eisenstecken
+    role: Partner
+    linkedin: https://atomico.com/team/luca-eisenstecken
+  - name: Ben Blume
+    role: Partner
