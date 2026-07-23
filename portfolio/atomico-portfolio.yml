@@ -3,9 +3,9 @@ method: searched
 source: https://atomico.com/companies
 summary:
   portfolio_total: 35
-  in_network: 15
-  api_providers: 9
-  missing: 20
+  in_network: 35
+  api_providers: 13
+  missing: 0
   stubs_created: 0
 companies:
 - name: Klarna
@@ -37,9 +37,10 @@ companies:
   stage: growth
   status: acquired
   source: https://en.wikipedia.org/wiki/Atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supercell
+  slug: supercell
+  matched_by: domain
 - name: Rovio Entertainment
   url: https://www.rovio.com
   description: Mobile games studio behind Angry Birds.
@@ -47,9 +48,10 @@ companies:
   stage: growth
   status: acquired
   source: https://en.wikipedia.org/wiki/Atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rovio-entertainment
+  slug: rovio
+  matched_by: domain
 - name: DeepL
   url: https://www.deepl.com
   description: AI-powered machine translation and language tools.
@@ -69,9 +71,10 @@ companies:
   stage: growth
   status: acquired
   source: https://en.wikipedia.org/wiki/Atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: graphcore
+  slug: graphcore
+  matched_by: domain
 - name: Pipedrive
   url: https://www.pipedrive.com
   description: Sales CRM and pipeline management software.
@@ -91,9 +94,10 @@ companies:
   status: ipo
   lead: true
   source: https://www.eu-startups.com/2014/10/truecaller-secures-60m-in-new-funding-from-atomico-kpcb-and-sequoia-capital/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: truecaller
+  slug: truecaller
+  matched_by: domain
 - name: Wellhub
   url: https://wellhub.com
   description: Corporate wellbeing and fitness membership platform (formerly Gympass).
@@ -101,9 +105,10 @@ companies:
   stage: growth
   status: active
   source: https://superscout.co/investor/atomico
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wellhub
+  in_network: true
+  is_api_provider: true
+  slug: wellhub
+  matched_by: domain
 - name: Aircall
   url: https://aircall.io
   description: Cloud-based phone and call center software for teams.
@@ -155,9 +160,10 @@ companies:
   stage: growth
   status: active
   source: https://superscout.co/investor/atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jobandtalent
+  slug: jobandtalent
+  matched_by: domain
 - name: Hinge Health
   url: https://www.hingehealth.com
   description: Digital musculoskeletal care and physical therapy platform.
@@ -188,9 +194,10 @@ companies:
   stage: growth
   status: active
   source: https://superscout.co/investor/atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: caddi
+  slug: caddi
+  matched_by: domain
 - name: Sorare
   url: https://sorare.com
   description: Fantasy sports and digital collectibles gaming platform.
@@ -201,7 +208,7 @@ companies:
   slug: sorare
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: MasterClass
   url: https://www.masterclass.com
   description: Online learning platform with classes taught by experts.
@@ -209,9 +216,10 @@ companies:
   stage: growth
   status: active
   source: https://sparkco.ai/blog/atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: masterclass
+  slug: masterclass
+  matched_by: domain
 - name: Compass
   url: https://www.compass.com
   description: Technology-powered residential real estate brokerage.
@@ -230,9 +238,10 @@ companies:
   stage: growth
   status: ipo
   source: https://en.wikipedia.org/wiki/Atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lendinvest
+  slug: lendinvest
+  matched_by: domain
 - name: The Climate Corporation
   url: https://climate.com
   description: Digital agriculture and farm data analytics platform.
@@ -251,9 +260,10 @@ companies:
   stage: series-a
   status: acquired
   source: https://sparkco.ai/blog/atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kheiron-medical-technologies
+  slug: kheiron-medical-technologies
+  matched_by: domain
 - name: Factorial
   url: https://factorialhr.com
   description: All-in-one HR software for small and medium businesses.
@@ -273,9 +283,10 @@ companies:
   stage: growth
   status: acquired
   source: https://pitchbook.com/profiles/investor/40732-48
-  in_network: false
-  is_api_provider: false
-  suggested_slug: peakon
+  in_network: true
+  is_api_provider: true
+  slug: peakon
+  matched_by: domain
 - name: Neko Health
   url: https://www.nekohealth.com
   description: Preventive health body-scanning clinics.
@@ -283,9 +294,10 @@ companies:
   stage: series-a
   status: active
   source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neko-health
+  slug: neko-health
+  matched_by: domain
 - name: Corti
   url: https://www.corti.ai
   description: AI co-pilot for healthcare consultations and clinical documentation.
@@ -293,9 +305,10 @@ companies:
   stage: growth
   status: active
   source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corti
+  slug: corti
+  matched_by: domain
 - name: Pelago
   url: https://www.pelago.health
   description: Digital clinic for substance-use management (formerly Quit Genius).
@@ -303,9 +316,10 @@ companies:
   stage: growth
   status: active
   source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pelago
+  slug: pelago
+  matched_by: name-slug
 - name: Dexory
   url: https://www.dexory.com
   description: Warehouse robotics and real-time inventory intelligence.
@@ -313,9 +327,10 @@ companies:
   stage: growth
   status: active
   source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dexory
+  slug: dexory
+  matched_by: domain
 - name: Deeploi
   url: https://www.deeploi.com
   description: IT operations and support platform for growing companies.
@@ -323,9 +338,10 @@ companies:
   stage: seed
   status: active
   source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deeploi
+  slug: deeploi
+  matched_by: name-slug
 - name: Strise
   url: https://www.strise.ai
   description: AML and financial-crime automation platform.
@@ -333,9 +349,10 @@ companies:
   stage: series-a
   status: active
   source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strise
+  slug: strise
+  matched_by: domain
 - name: Framer
   url: https://www.framer.com
   description: No-code website design and publishing tool.
@@ -354,9 +371,10 @@ companies:
   stage: growth
   status: active
   source: https://superscout.co/investor/atomico
-  in_network: false
-  is_api_provider: false
-  suggested_slug: smartnews
+  in_network: true
+  is_api_provider: true
+  slug: smartnews
+  matched_by: domain
 - name: Attentive
   url: https://www.attentive.com
   description: SMS and conversational marketing platform.
@@ -364,9 +382,10 @@ companies:
   stage: growth
   status: active
   source: https://pitchbook.com/profiles/investor/40732-48
-  in_network: false
-  is_api_provider: false
-  suggested_slug: attentive
+  in_network: true
+  is_api_provider: true
+  slug: attentive
+  matched_by: domain
 - name: ClaimSorted
   url: https://www.claimsorted.com
   description: Claims-management platform for insurers and MGAs.
@@ -374,6 +393,7 @@ companies:
   stage: seed
   status: active
   source: https://sparkco.ai/blog/atomico
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: claimsorted
+  slug: claimsorted
+  matched_by: domain
