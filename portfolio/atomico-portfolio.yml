@@ -3,9 +3,9 @@ method: searched
 source: https://atomico.com/companies
 summary:
   portfolio_total: 35
-  in_network: 35
+  in_network: 34
   api_providers: 13
-  missing: 0
+  missing: 1
   stubs_created: 0
 companies:
 - name: Klarna
@@ -50,7 +50,7 @@ companies:
   source: https://en.wikipedia.org/wiki/Atomico
   in_network: true
   is_api_provider: false
-  slug: rovio
+  slug: rovio-entertainment
   matched_by: domain
 - name: DeepL
   url: https://www.deepl.com
@@ -316,10 +316,10 @@ companies:
   stage: growth
   status: active
   source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: pelago
-  matched_by: name-slug
+  x-name-collision: pelago
+  suggested_slug: pelago-health
 - name: Dexory
   url: https://www.dexory.com
   description: Warehouse robotics and real-time inventory intelligence.

@@ -1,4 +1,11 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: atomico
-leads: []
+leads:
+- name: Pelago
+  url: https://www.pelago.health
+  suggested_slug: pelago-health
+  sector: health
+  source_vc: atomico
+  source: https://atomico.com/insights/dollar124-billion-as-european-technology-comes-of-age
+  stub_created: false
